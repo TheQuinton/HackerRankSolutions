@@ -48,7 +48,7 @@ function sherlockAndAnagrams(s) {
         }
     }
     //loop through the stored substrings and values
-    console.log(map);
+    //console.log(map);
     for (let [substr, value] of map.entries()) {
         //count the number of matches
         count += Math.floor((value - 1) * value / 2)
